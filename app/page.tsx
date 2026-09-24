@@ -54,11 +54,13 @@ export default function Home() {
         </div>
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <div className="mb-8 flex justify-center">
-            <img
-              src="/northern-lights-wolf.png"
-              alt="Northern Lights Hockey Logo"
-              className="w-48 h-48 object-contain drop-shadow-lg"
-            />
+            <div className="relative flex h-64 w-64 items-center justify-center overflow-hidden rounded-full bg-[#07131f] shadow-[0_0_60px_rgba(34,211,238,0.2)] ring-1 ring-cyan-400/20">
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/NL_LockerRoomBanner.jpg.JPEG-sAtRyOVXedpszqi3y7WhAqhFISZey7.jpeg"
+                alt="Northern Lights Hockey wolf badge"
+                className="h-[145%] w-[145%] max-w-none object-cover mix-blend-screen"
+              />
+            </div>
           </div>
           <h1 className="text-6xl md:text-7xl font-black mb-4 tracking-tighter">
             NORTHERN
@@ -69,8 +71,8 @@ export default function Home() {
           </h1>
           <p className="text-2xl md:text-3xl text-gray-300 mb-8 font-light">HOCKEY TEAM</p>
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Join us as we bring elite hockey to the north. Experience the intensity, passion, and
-            artistry of the game through the lens of the Northern Lights.
+            Where mere men fear to skate, the Northern Lights rise. Feel the thunder. Witness the
+            aurora.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/portal">
