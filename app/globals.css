@@ -118,6 +118,6 @@
     @apply bg-background text-foreground;
   }
   html {
-    @apply dark;
+    color-scheme: dark;
   }
 }
